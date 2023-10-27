@@ -1,4 +1,18 @@
-fetch('http://localhost:3000/movies')
-    .then(response => response.json())
-    .then(movies => console.log(movies))
-    .catch(error => console.error(error));
+let movies = [];
+
+import {createMovieCard, getMovies} from "./movies-api-functions.js";
+// console.log(getMovies);
+
+// document.addEventListener("DOMContentLoaded", main);
+
+
+console.log(createMovieCard(movieData));
+//async functions go here
+
+//show loading message
+//movies = await getMovies
+//show loading message
+//display Movies function
+//add Listeners
+//initAddMovie Form
+

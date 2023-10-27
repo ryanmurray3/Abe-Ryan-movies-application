@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, maximum-scale=1">
-  <title>$Title$</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/movies-application.css"
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1">
+	<title>ARDB</title>
 </head>
 <body>
-$END$
+<div class="page wrapper">
+		<a class="navbar-brand" href="#">
+			<img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top d-flex justify-content-start">
+			ARDB The Database
+		</a>
+	</div>
+</nav>
+<nav class="navbar bg-body-tertiary">
+	<div class="container-fluid">
+		<button id="toggleButton">Toggle Form</button>
+		<form id="myForm" style="display: none;">
+			<!-- Your form fields go here -->
+			<input type="text" name="name" placeholder="Name">
+			<input type="email" name="email" placeholder="Email">
+			<input type="submit" value="Submit">
+		</form>
+	
+	</div>
+</nav>
+<div id="all-cards" class="container-fluid">
+		<div id="movie-card"></div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script type="module" src="js/movies-api-functions.js"></script>
+</div>
 </body>
 </html>
+
+

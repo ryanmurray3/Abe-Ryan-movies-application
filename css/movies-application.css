@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#movie-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+#page-wrapper {
+    width: 80%;
+}
+.card {
+    width: 18rem;
+    margin: 20px;
+    padding: 10px;
+}
+#myForm input[type=text],
+#myForm input[type=email] {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/*#myForm input[type=text],*/
+/*#myForm input[type=email] {*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*}*/
