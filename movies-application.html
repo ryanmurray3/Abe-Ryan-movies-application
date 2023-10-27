@@ -16,19 +16,25 @@
 	</div>
 </nav>
 <nav class="navbar bg-body-tertiary">
-	<div class="container-fluid">
-		<button id="toggleButton">Toggle Form</button>
+	<div class="container">
+		<button id="toggleButton">+</button>
 		<form id="myForm" style="display: none;">
 			<!-- Your form fields go here -->
-			<input type="text" name="name" placeholder="Name">
-			<input type="email" name="email" placeholder="Email">
-			<input type="submit" value="Submit">
+			<input id="title" type="text" name="title" placeholder="Movie Title">
+			<input  id="genre" type="text" name="genre" placeholder="Genre">
+
+            <input id="rating" type="text" name= "rating" placeholder="Rating 1-5">
+          <br><br>
+            <textarea id="summary" name="summary" rows="4" cols="80%">
+            </textarea>
+			<input id="form-button" type="button" value="Submit">
 		</form>
 	
 	</div>
 </nav>
 <div id="all-cards" class="container-fluid">
 		<div id="movie-card"></div>
+			<div id="movie-list"></div>
 </div>
 
 

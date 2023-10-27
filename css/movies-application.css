@@ -24,7 +24,19 @@
     padding: 10px;
     border: 1px solid #ccc;
 }
+#myForm {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+#form-button {
+    color: blue;
+    margin: 20px 0 30px 20px;
+}
 
+.delete-button:hover {
+    background-color: crimson;
+}
 /*#myForm input[type=text],*/
 /*#myForm input[type=email] {*/
 /*    padding: 10px;*/

@@ -1,4 +1,3 @@
-
 {
   "movies": [
     {
@@ -76,6 +75,13 @@
       "movieSummary": "eh, ok. soundtrack is good.",
       "posterURL": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
       "id": 11
+    },
+    {
+      "title": "hdhd",
+      "rating": "ddddd",
+      "genre": "dddddddd",
+      "movieSummary": "            ddddd",
+      "id": 12
     }
   ]
 }
