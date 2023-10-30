@@ -8,8 +8,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px darkred);
+    opacity: 90%;
 }
 #page-wrapper {
     width: 80%;
@@ -18,20 +19,24 @@
     width: 18rem;
     margin: 20px;
     padding: 10px;
+
 }
 #myForm input[type=text],
 #myForm input[type=email] {
     padding: 10px;
     border: 1px solid #ccc;
+    background-color: gainsboro;
 }
 #myForm {
     display: flex;
     justify-content: flex-start;
     width: 100%;
+
 }
 #form-button {
     color: blue;
     margin: 20px 0 30px 20px;
+
 }
 
 .delete-button:hover {
@@ -42,3 +47,25 @@
 /*    padding: 10px;*/
 /*    border: 1px solid #ccc;*/
 /*}*/
+body {
+    background-image: url("https://images.pexels.com/photos/5911720/pexels-photo-5911720.jpeg?auto=compress&cs=tinysrgb&w=800");
+}
+
+h1 {
+    color: white;
+    filter: drop-shadow(5px 5px darkred);
+}
+
+#myForm {
+    background-color: darkgrey;
+}
+.container {
+    background-color: darkgrey;
+}
+
+.navbar {
+    background-color: darkgrey;
+}
+#summary {
+    background-color: gainsboro;
+}
